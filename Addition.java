@@ -9,6 +9,8 @@ class Addition
 		int a = sc.nextInt();
 		System.out.println("Enter the second number::");
 		int b = sc.nextInt();
+		// Your code won't compile with a valid add statement
+		int result = a+b;
 		System.out.println("The sum is:" + result);
 	}
 }
